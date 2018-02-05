@@ -14,6 +14,7 @@
 		7FBF595E2028EA5D00CF680D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBF595C2028EA5D00CF680D /* LaunchScreen.storyboard */; };
 		7FBF59692028EA5D00CF680D /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF59682028EA5D00CF680D /* HackwichThreeTests.swift */; };
 		7FBF59742028EA5D00CF680D /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF59732028EA5D00CF680D /* HackwichThreeUITests.swift */; };
+		7FBF59822028F2CE00CF680D /* viewControllerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF59812028F2CE00CF680D /* viewControllerTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7FBF596F2028EA5D00CF680D /* HackwichThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBF59732028EA5D00CF680D /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		7FBF59752028EA5D00CF680D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBF59812028F2CE00CF680D /* viewControllerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7FBF59532028EA5D00CF680D /* AppDelegate.swift */,
 				7FBF59552028EA5D00CF680D /* ViewController.swift */,
 				7FBF59572028EA5D00CF680D /* Main.storyboard */,
+				7FBF59812028F2CE00CF680D /* viewControllerTwoViewController.swift */,
 				7FBF595A2028EA5D00CF680D /* Assets.xcassets */,
 				7FBF595C2028EA5D00CF680D /* LaunchScreen.storyboard */,
 				7FBF595F2028EA5D00CF680D /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				7FBF59562028EA5D00CF680D /* ViewController.swift in Sources */,
 				7FBF59542028EA5D00CF680D /* AppDelegate.swift in Sources */,
+				7FBF59822028F2CE00CF680D /* viewControllerTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
