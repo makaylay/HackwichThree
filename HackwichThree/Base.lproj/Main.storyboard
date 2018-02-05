@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xqt-KV-uJZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cft-f0-naR">
-                                <rect key="frame" x="134" y="249" width="42" height="21"/>
+                                <rect key="frame" x="144" y="237" width="86" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -55,10 +55,13 @@
                         <viewLayoutGuide key="safeArea" id="z7F-ZK-tVg"/>
                     </view>
                     <navigationItem key="navigationItem" id="3sR-Zg-d38"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="Cft-f0-naR" id="MTK-w3-TbG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yf4-Am-29c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="449" y="-233"/>
+            <point key="canvasLocation" x="448.80000000000001" y="-233.43328335832086"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7xU-xR-Lzj">
@@ -82,7 +85,7 @@
         <scene sceneID="7Km-nm-PVw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W7X-a6-IKV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="uXe-ZQ-Lxs"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="about" selectedImage="about" id="uXe-ZQ-Lxs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HPk-9p-ihW">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -117,4 +120,7 @@
             <point key="canvasLocation" x="-244.80000000000001" y="433.58320839580216"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="30" height="30"/>
+    </resources>
 </document>
