@@ -17,6 +17,9 @@ class thirdViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         self.tableView.dataSource = self
         super.viewDidLoad()
+        
+        //Navigation Title
+        self.navigationItem.title = "My Bucket List"
 
         // Do any additional setup after loading the view.
     }

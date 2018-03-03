@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Weather Converter-->
+        <!--View Controller Two View Controller-->
         <scene sceneID="nnA-xe-cFx">
             <objects>
                 <viewController id="nIS-7K-lUi" customClass="viewControllerTwoViewController" customModule="HackwichThree" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,15 +33,18 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wm-D3-gTW">
-                                <rect key="frame" x="123" y="205" width="55" height="30"/>
+                                <rect key="frame" x="87" y="205" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Convert"/>
+                                <state key="normal" title="Convert to Celcius"/>
+                                <connections>
+                                    <action selector="convertButtonPressed:" destination="nIS-7K-lUi" eventType="touchUpInside" id="syB-xa-LYQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Yhh-jr-nQ5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Weather Converter" id="81z-cY-qUO"/>
+                    <navigationItem key="navigationItem" id="81z-cY-qUO"/>
                     <connections>
                         <outlet property="displayTextLabel" destination="miP-Lq-Eo6" id="SgN-DK-J0j"/>
                         <outlet property="textField" destination="Uke-Mr-KHe" id="8RL-xL-d7H"/>
@@ -51,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="448.125" y="432.04225352112678"/>
         </scene>
-        <!--About Me-->
+        <!--View Controller-->
         <scene sceneID="6dc-v7-fvy">
             <objects>
                 <viewController id="6dh-d7-QBy" customClass="ViewController" customModule="HackwichThree" customModuleProvider="target" sceneMemberID="viewController">
@@ -126,7 +129,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="z7F-ZK-tVg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About Me" id="3sR-Zg-d38"/>
+                    <navigationItem key="navigationItem" id="3sR-Zg-d38"/>
                     <connections>
                         <outlet property="fifthLabel" destination="gde-Vi-pce" id="nDJ-1q-HlM"/>
                         <outlet property="firstLabel" destination="Cft-f0-naR" id="MTK-w3-TbG"/>
@@ -197,7 +200,7 @@
             </objects>
             <point key="canvasLocation" x="-244.80000000000001" y="433.58320839580216"/>
         </scene>
-        <!--My Bucket List-->
+        <!--Third View Controller-->
         <scene sceneID="kt6-Pe-SwM">
             <objects>
                 <viewController id="06B-Ac-CGR" customClass="thirdViewController" customModule="HackwichThree" customModuleProvider="target" sceneMemberID="viewController">
@@ -228,7 +231,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gwx-qx-7Ph"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My Bucket List" id="G6D-fh-7i0"/>
+                    <navigationItem key="navigationItem" id="G6D-fh-7i0"/>
                     <connections>
                         <outlet property="tableView" destination="khL-uK-Q1H" id="ci9-7i-ilO"/>
                     </connections>

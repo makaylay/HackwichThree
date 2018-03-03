@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
   
+        //Navigation Title
+        self.navigationItem.title = "About Me"
+        
         //set first label to string "Name"
         self.firstLabel.text = "My Name is:"
         
