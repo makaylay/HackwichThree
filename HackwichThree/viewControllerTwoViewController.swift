@@ -13,7 +13,6 @@ class viewControllerTwoViewController: UIViewController {
     @IBOutlet var textField: UITextField!
     @IBOutlet var displayTextLabel: UILabel!
     
-    let degree = Int(textField.text)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +23,9 @@ class viewControllerTwoViewController: UIViewController {
         
         //Set the displayTextLabel text with no characters
         self.displayTextLabel.text = ""
+        
+        //Placeholder text
+        textField.placeholder = "Enter degrees Fahrenheit"
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,9 +34,11 @@ class viewControllerTwoViewController: UIViewController {
     }
     
     @IBAction func convertButtonPressed(_ sender: Any) {
-        
-        displayTextLabel = (degree - 32) * 5/9
-        self.displayTextLabel.text = "It is \(degree) degrees Celcius"
+        var userInput: Float
+        userInput = Float(textField.text!)!
+        var celcius:String
+        celcius = String((userInput - 32) * 5/9)
+        self.displayTextLabel.text = "Today is \(celcius) degrees celcius."
     }
     
     /*
